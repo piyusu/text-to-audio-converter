@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg.gif');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+  }  
